@@ -510,7 +510,7 @@ const RegisterForm = (props) => {
 		<>
 			{/* {stateForm ? ( */}
 				<Form onChange={changeForm} onFinish={SignUp} className="register-form">
-					<h1 className="register-form__title">Participa por la gif card</h1>
+					<h1 className="register-form__title">PARTICIPA POR LA GIF CARD</h1>
 					<Row gutter={[16, 24]}>
 						{/* {data.name ? ( */}
 							<Col span={24} md={12}>

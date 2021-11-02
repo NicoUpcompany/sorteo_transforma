@@ -85,6 +85,7 @@ const Confirmacion = () => {
 								</h2>
 								<div className="card">
 									<h1>Gracias por participar! </h1>
+									<h3>El sorteo sera el día xx/xx/xxxx</h3>
 								</div>
 							</div>
 							{/* <div className="card2">
