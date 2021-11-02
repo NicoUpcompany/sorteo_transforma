@@ -1,0 +1,12 @@
+.sponsors{
+    max-width: 1000px;
+    &__col{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    &__img{
+        padding: 30px;
+        max-height: 100%;
+    }
+}

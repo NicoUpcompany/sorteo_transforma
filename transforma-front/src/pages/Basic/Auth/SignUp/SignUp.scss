@@ -1,0 +1,35 @@
+.sign-up {
+	&__banner {
+		max-width: 100%;
+	}
+	&__form-wrapper,
+	&__sponsors {
+		display: flex;
+		justify-content: center;
+		padding: 30px 0;
+	}
+	&__sponsors {
+		align-items: center;
+		flex-direction: column;
+		min-height: 100px;
+		max-width: 80%;
+		margin: auto;
+		h2 {
+			text-align: center;
+			color: #9a359b;
+			font-weight: 700;
+		}
+	}
+	&__footer {
+		align-items: center;
+		background: #3d98aa;
+		color: #fff;
+		display: flex;
+		justify-content: center;
+		height: 100px;
+		p {
+			padding: 1em 0;
+			margin: 0;
+		}
+	}
+}

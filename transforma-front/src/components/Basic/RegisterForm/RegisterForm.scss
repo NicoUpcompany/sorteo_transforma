@@ -1,0 +1,100 @@
+@import "../../../scss/variables";
+
+.col4 {
+	form {
+		margin: 0 auto;
+		width: 80%;
+		max-width: 1000px;
+		input,
+		label,
+		.MuiSelect-outlined.MuiSelect-outlined {
+			width: 100%;
+			max-width: 100% !important;
+			// background: #f3f3f3;
+			font-family: "Montserrat", sans-serif !important;
+			&:focus {
+				background: #fff;
+				color: #000;
+			}
+		}
+		.MuiFormControl-root {
+			width: 100%;
+			.Mui-focused {
+				color: #3d98aa !important;
+				input:-webkit-autofill,
+				input:-webkit-autofill:hover,
+				input:-webkit-autofill:focus,
+				input:-webkit-autofill:active {
+					-webkit-box-shadow: 0 0 0 30px white inset !important;
+				}
+			}
+			label {
+				background-color: #fff;
+				width: fit-content;
+				padding: 0 0.5rem;
+			}
+			// .MuiInputLabel-outlined.MuiInputLabel-shrink {
+			// 	transform: translate(14px, -6px) scale(0.75);
+			// }
+		}
+		// .register-form__selects {
+		// 	.MuiInputLabel-outlined.MuiInputLabel-shrink {
+		// 		transform: translate(14px, 0px) scale(0.75);
+		// 	}
+		// }
+		fieldset legend {
+			display: none;
+		}
+	}
+}
+
+.register-form {
+	&__title {
+		color: #9a359b;
+		font-weight: 700;
+	}
+	&__footer {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		p {
+			margin: 0;
+			padding-bottom: 14px;
+			a {
+				color: #3d98aa !important;
+				font-weight: 700;
+			}
+		}
+		&__btn {
+			font-weight: bold !important;
+			font-size: 16px;
+			font-family: "Montserrat", sans-serif !important;
+			height: 45px;
+			border-radius: 5px !important;
+			border: 0;
+			padding: 0 30px;
+			width: 100%;
+
+			span {
+				color: white;
+				font-weight: 700;
+				font-size: 16px !important;
+				margin: 0;
+			}
+		}
+	}
+}
+
+@media (min-width: $media-breackpoint-up-sm) {
+	.register-form {
+		&__footer {
+			p {
+				padding: 0;
+			}
+			&__btn {
+				width: fit-content;
+			}
+		}
+	}
+}
